@@ -11,7 +11,7 @@ class PaymentPage extends StatelessWidget {
           'Payment',
           style: TextStyle(color: Color(0xFF00FFF0)),
         ),
-        // backgroundColor: Colors.transparent,
+        
         iconTheme: const IconThemeData(color: Color(0xFF00FFF0)),
         elevation: 0,
       ),
@@ -70,7 +70,7 @@ class PaymentPage extends StatelessWidget {
           size: 16,
         ),
         onTap: () {
-          // هنا مجرد UI، ممكن تضيف أي وظيفة لاحقًا
+          
         },
       ),
     );
