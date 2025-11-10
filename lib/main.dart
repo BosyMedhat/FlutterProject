@@ -9,15 +9,13 @@ void main() {
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
-  //  textTheme: GoogleFonts.robotoTextTheme(Theme.of(context).textTheme),
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
         //  textTheme: GoogleFonts.robotoTextTheme(Theme.of(context).textTheme),
-
-        // textTheme: GoogleFonts.kadwaTextTheme(ThemeData.light().textTheme),
+        textTheme: GoogleFonts.kadwaTextTheme(ThemeData.light().textTheme),
         scaffoldBackgroundColor: Colors.transparent,
         appBarTheme: AppBarTheme(
           backgroundColor: Colors.transparent,
